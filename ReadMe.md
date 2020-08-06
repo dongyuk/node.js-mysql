@@ -20,7 +20,7 @@
 ##
 ### Package & Package Manager
 - Package? 소프트웨어를 부르는 여러가지 표현    
-    : ex) 독립적으로 실행되는 프로그램 
+    >ex) 독립적으로 실행되는 프로그램 
 - Package Manager? 소프트웨어들을 생성/설치/업데이트 등을 관리해주는 프로그램
 
 ##
@@ -31,16 +31,16 @@
 ##
 ### pm2
 - Node.js를 통해서 만든 프로그램을 감시/관리 해줌.    
-    : ex) Node.js 소스가 수정되면 자동으로 관련 프로그램을 껐다 킴
+    >ex) Node.js 소스가 수정되면 자동으로 관련 프로그램을 껐다 킴
 - pm2 설치 명령어    
-    : npm install pm2 -g
+    >npm install pm2 -g
 - pm2 명령어    
     `1`. 백그라운드로 실행 X    
-        : pm2 start main.js --watch --no-daemon    
+        >pm2 start main.js --watch --no-daemon    
     `2`. pm2 관리/감독 중인 서비스 모두 죽이기    
-        : pm2 kill    
+        >pm2 kill    
     `3`. 로그 확인    
-        : pm2 log    
+        >pm2 log    
 
 ##
 ### 모듈
@@ -51,7 +51,7 @@
 - 순서(cmd에서 실행)    
   `1`. Node.js 관련 소스 경로로 이동.(package.json 파일 존재해야함)    
   `2`. 명령어 실행     
-        : npm install mysql     
+        >npm install mysql     
          -> package.json 파일 dependencies에 mysql이 추가됨.    
          -> node_modules 폴더 안에 mysql 모듈 추가됨.    
 
