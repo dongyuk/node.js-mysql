@@ -35,11 +35,11 @@
 - pm2 설치 명령어    
     : npm install pm2 -g
 - pm2 명령어    
-    1. 백그라운드로 실행 X    
+    `1`. 백그라운드로 실행 X    
         : pm2 start main.js --watch --no-daemon    
-    1. pm2 관리/감독 중인 서비스 모두 죽이기    
+    `2`. pm2 관리/감독 중인 서비스 모두 죽이기    
         : pm2 kill    
-    1. 로그 확인    
+    `3`. 로그 확인    
         : pm2 log    
 
 ##
@@ -51,9 +51,9 @@
 - 순서(cmd에서 실행)    
   `1`. Node.js 관련 소스 경로로 이동.(package.json 파일 존재해야함)    
   `2`. 명령어 실행     
-    : npm install mysql     
-      -> package.json 파일 dependencies에 mysql이 추가됨.    
-      -> node_modules 폴더 안에 mysql 모듈 추가됨.    
+        : npm install mysql     
+         -> package.json 파일 dependencies에 mysql이 추가됨.    
+         -> node_modules 폴더 안에 mysql 모듈 추가됨.    
 
 ##
 ### 검색 추천
