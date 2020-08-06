@@ -19,7 +19,7 @@
 
 ##
 ### Package & Package Manager
-- Package? 소프트웨어를 부르는 여러가지 표현
+- Package? 소프트웨어를 부르는 여러가지 표현    
     : ex) 독립적으로 실행되는 프로그램 
 - Package Manager? 소프트웨어들을 생성/설치/업데이트 등을 관리해주는 프로그램
 
