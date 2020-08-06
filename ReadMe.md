@@ -36,11 +36,11 @@
 &nbsp;npm install pm2 -g
 - pm2 명령어    
 &nbsp;`1`. 백그라운드로 실행 X    
-&nbsp;&nbsp;:pm2 start main.js --watch --no-daemon    
+&nbsp;&nbsp;&nbsp;: pm2 start main.js --watch --no-daemon    
 &nbsp;`2`. pm2 관리/감독 중인 서비스 모두 죽이기    
-&nbsp;&nbsp;pm2 kill    
+&nbsp;&nbsp;&nbsp;: pm2 kill    
 &nbsp;`3`. 로그 확인    
-&nbsp;&nbsp;pm2 log    
+&nbsp;&nbsp;&nbsp;: pm2 log    
 
 ##
 ### 모듈
@@ -51,7 +51,7 @@
 - 순서(cmd에서 실행)    
 &nbsp;`1`. Node.js 관련 소스 경로로 이동.(package.json 파일 존재해야함)    
 &nbsp;`2`. 명령어 실행         
-&nbsp;&nbsp;npm install mysql     
+&nbsp;&nbsp;: npm install mysql     
          -> package.json 파일 dependencies에 mysql이 추가됨.    
          -> node_modules 폴더 안에 mysql 모듈 추가됨.    
 
