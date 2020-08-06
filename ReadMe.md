@@ -52,8 +52,8 @@
 &nbsp;`1`. Node.js 관련 소스 경로로 이동.(package.json 파일 존재해야함)    
 &nbsp;`2`. 명령어 실행         
 &nbsp;&nbsp;: npm install mysql     
-         -> package.json 파일 dependencies에 mysql이 추가됨.    
-         -> node_modules 폴더 안에 mysql 모듈 추가됨.    
+&nbsp;&nbsp;&nbsp;&nbsp;-> package.json 파일 dependencies에 mysql이 추가됨.    
+&nbsp;&nbsp;&nbsp;&nbsp;-> node_modules 폴더 안에 mysql 모듈 추가됨.    
 
 ##
 ### 검색 추천
