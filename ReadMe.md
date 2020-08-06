@@ -49,8 +49,8 @@
 ##
 ### 모듈 추가 하는 방법
 - 순서(cmd에서 실행)    
-  1. Node.js 관련 소스 경로로 이동.(package.json 파일 존재해야함)    
-  1. 명령어 실행     
+  `1`. Node.js 관련 소스 경로로 이동.(package.json 파일 존재해야함)    
+  `2`. 명령어 실행     
     : npm install mysql     
       -> package.json 파일 dependencies에 mysql이 추가됨.    
       -> node_modules 폴더 안에 mysql 모듈 추가됨.    
