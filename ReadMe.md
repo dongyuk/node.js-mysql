@@ -24,11 +24,11 @@
 
 ##
 ### Callback
-- 작업이 끝나면 호출
-&nbsp;ex) fs.readFile('syntax/sample.txt', 'utf8', function(err, result){...});
-&nbsp; 실행되는 순서
-&nbsp;`1`. readFile함수 실행
-&nbsp;`2`. 1번 작업 끝난 후 3번째 인자 callback함수 실행
+- 작업이 끝나면 호출    
+&nbsp;ex) fs.readFile('syntax/sample.txt', 'utf8', function(err, result){...});    
+&nbsp; 실행되는 순서    
+&nbsp;`1`. readFile함수 실행    
+&nbsp;`2`. 1번 작업 끝난 후 3번째 인자 callback함수 실행    
 
 
 
