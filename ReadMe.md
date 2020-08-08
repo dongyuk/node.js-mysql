@@ -21,8 +21,8 @@
 ### API
 - Application Programming Interface 약자     
 - Interface? 약속된 조작 장치     
-&nbsp;ex) Node.js 제공되는 함수(기능)들
-- Application Programming 하기 위한 약속된 조작 장치 = API
+- Application Programming 하기 위해 제공되는 함수 = API     
+&nbsp;ex) Node.js 제공되는 함수(기능)들    
 - 언어가 가지고 있는 조작 장치(제공되는 함수)
 
 
