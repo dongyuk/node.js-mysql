@@ -17,9 +17,18 @@
 - 웹브라우저/웹서버 관계, 게임 클라이언트(게임유저의 각 (단말기들로부터의) 요청)와 게임 서버(게임서비스를 제공하는 회사측 컴퓨터(서버)) 등 의 관계와 같음
 - 한마디로 "정보를 요청하는 쪽 / 정보를 요청받아 그것를 제공하는 쪽" 에 대한 개념
 
+##
+### API
+- Application Programming Interface 약자     
+- Interface? 약속된 조작 장치     
+&nbsp;ex) Node.js 제공되는 함수(기능)들
+- Application Programming 하기 위한 약속된 조작 장치 = API
+- 언어가 가지고 있는 조작 장치(제공되는 함수)
+
+
 ### Template Literal
-- literal? 정보를 표현하는 방법. 기호     
-- ` => Template Literal 시작과 끝을 나타냄.     
+- literal? 정보를 표현하는 방법. 기호      
+- ` => Template Literal 시작과 끝을 나타냄          
 &nbsp;ex) `TEST ${name}`
 
 ##
@@ -32,7 +41,7 @@
 
 - Node.js 대부분 비동기 함수이므로 callback 함수 사용 필요        
 - readFile 함수는 비동기 처리함수     
-- 비동기 처리함수 일 경우 언제 작업이 끝날지 모르므로 readFile 함수 작업이 끝나고 처리되야 될 부분을 callback함수 안에서 처리해야 함
+- 비동기 처리함수 일 경우 언제 작업이 끝날지 모르므로 readFile 함수 작업이 끝나고 처리돼야 될 부분을 callback함수 안에 넣어줘야 함
 
 
 
