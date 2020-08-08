@@ -18,8 +18,8 @@
 - 한마디로 "정보를 요청하는 쪽 / 정보를 요청받아 그것를 제공하는 쪽" 에 대한 개념
 
 ### Template Literal
-- literal? 정보를 표현하는 방법. 기호
-- ` => Template Literal 시작과 끝을 나타냄.
+- literal? 정보를 표현하는 방법. 기호    
+- ` => Template Literal 시작과 끝을 나타냄.    
 &nbsp;ex) `TEST ${name}`
 
 ##
@@ -29,6 +29,9 @@
 &nbsp; 실행되는 순서    
 &nbsp;`1`. readFile함수 실행    
 &nbsp;`2`. 1번 작업 끝난 후 3번째 인자 callback함수 실행    
+
+- Node.js 비동기 이므로 callback 함수 사용.
+- readFile 함수는 비동기함수. 비동기함수 일 경우 언제 작업이 끝날지 모르므로 readFile작업이 끝나고 처리되야 될 부분을 callback함수 안에서 처리
 
 
 
