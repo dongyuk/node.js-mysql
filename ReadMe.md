@@ -24,7 +24,7 @@
 - Application Programming 하기 위해 제공되는 함수 = API     
 &nbsp;ex) Node.js 제공되는 함수(기능)들    
 - 언어가 가지고 있는 조작 장치(제공되는 함수)
-
+- 제공되는 기능 사용 방법(조작 방법)
 
 ### Template Literal
 - literal? 정보를 표현하는 방법. 기호      
